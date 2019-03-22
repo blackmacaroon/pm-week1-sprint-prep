@@ -73,66 +73,58 @@ p {
 }
 /* *************************************************************************   NAV STYLES HERE   */
 
-
-header .logo {
-  width: 60px;
-  height: 60px;
-  
-}
-
-
-
-
-
-
-
-
-
 /* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
 
-
-
-.middle-image{
-  width: 330px;
-  height: 250px;
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    font-size: 18px;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
 
+img {
+    width: 100%;
+}
 
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+}
 
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    border: 1px solid red;
+    display: block;
+    width: 46.5%;
+    padding: 40px 0;
+}
 
+h2 {
+    font-size: 18px;
+}
 
+.bottom {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
 
-
-
-
-
-
-
-
-
-
-/* *******************************************************************************  FOOTER STYLES HERE  */
- .familyguy-footer-content {
-  margin-bottom: 20px;
-  padding: 20px;
 }
 
 footer {
     width: 100%;
-    background: white;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: black;
-    text-decoration: none;
+    background: #fcfcee;
+    margin-bottom: 20px;
+    padding: 20px;
 }
